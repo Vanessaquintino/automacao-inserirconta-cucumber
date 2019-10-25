@@ -1,0 +1,100 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "cadastro-de-contas;",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5929043000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que estou acessando a aplicacao",
+            "match": {
+              "location": "Inserircontar.queEstouAcessandoAAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 137314900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "informo o usuario \"vanessa.sq@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vanessa.sq@hotmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Inserircontar.informoOUsuario(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 63550800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a senha \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456789",
+                  "offset": 9
+                }
+              ],
+              "location": "Inserircontar.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 804727900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "Inserircontar.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 27534200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "visualizo a pagina inicial",
+            "match": {
+              "location": "Inserircontar.visualizoAPaginaInicial()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "Gostaria de cadastrar contas",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/inserirconta.feature"
+  }
+]
