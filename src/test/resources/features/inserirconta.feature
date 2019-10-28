@@ -5,7 +5,8 @@ Gostaria de cadastrar contas
 
 Cenario:
 Dado que estou acessando a aplicacao
-Quando informo o usuario "vanessa.sq@hotmail.com"
-E a senha "123456789"
+Quando informar chave de acesso 
+Quando informo o usuario "vanessa.quintino"
+E a senha "15924706"
 E seleciono entrar
 Entao visualizo a pagina inicial
